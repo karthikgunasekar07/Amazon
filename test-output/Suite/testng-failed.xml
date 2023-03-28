@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.amazon.mini.Amazon_MiniProject">
+        <methods>
+          <include name="urlLaunch"/>
+          <include name="browserClose"/>
+          <include name="firstProduct"/>
+          <include name="goToCart"/>
+          <include name="browserLaunch"/>
+          <include name="compareToProduct"/>
+        </methods>
+      </class> <!-- com.amazon.mini.Amazon_MiniProject -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
